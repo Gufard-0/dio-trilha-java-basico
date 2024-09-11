@@ -50,6 +50,10 @@ public class Operadores {
 
 
 
+        
+
+
+
         /*
         int a, b;
         a = 5;
@@ -57,6 +61,9 @@ public class Operadores {
 
         //Exemplo de condicional utilizando ?:
         String resultado = a == b ? "Verdadeiro" : "Falso";
+        
+        String resultado = a == null ? (): a;
+        
 
         System.out.println(resultado);
         */
