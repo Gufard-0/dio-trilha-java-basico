@@ -2,7 +2,7 @@
  * SmartTv
  */
 public class SmartTv {
-    boolean ligada = false;
+    private boolean ligada = false;
     int canal = 1;
     int volume = 25;
 
@@ -32,8 +32,11 @@ public class SmartTv {
         canal = novoCanal;
     }
 
-
-
-
+    public void status(){
+        System.out.println(ligada);
+        System.out.println(volume);
+        System.out.println(canal);
+        
+    }
 
 }
