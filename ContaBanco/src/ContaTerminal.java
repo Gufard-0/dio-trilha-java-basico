@@ -7,7 +7,7 @@ public class ContaTerminal {
 
             System.out.println("Bem vindo !!! Por favor, digite as informações solicitadas a seguir");
 
-
+            
             System.out.println("Nome do Cliente: ");
             String nomeCliente = scanner.nextLine();
             System.out.println();
